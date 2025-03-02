@@ -128,16 +128,12 @@ const Navbar=()=>{
                     <div className="drawer-side z-50">
                         <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
                         <ul className="menu bg-base-200 text-base-content min-h-full w-56 px-4 space-y-5 pt-5 font-delius">
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Photo-Blast</li>
-                            <li>Misma</li>
-                            <li>#NWTS</li>
-
-                            {/* <Link href={'/register'}>
-                                <li>Register</li>
-                            </Link> */}
-      
+                            <li>HOME</li>
+                            <li>ABOUT US</li>
+                            <li>STAFFING & AGENCIES</li>
+                            <li>CAREERS</li>
+                            <li>BLOG</li>
+                            <li>CONTACT US</li>
                         </ul>
                     </div>
                 </div>
@@ -147,8 +143,6 @@ const Navbar=()=>{
                 
 
             </div>
-
-
         </div>
     )
 
