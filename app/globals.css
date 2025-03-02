@@ -27,9 +27,9 @@ body {
   
   font-family: Arial, Helvetica, sans-serif;
 
-  border: 1px red solid;
+  /* border: 1px red solid;
   margin: 0;
-  padding: 0;
+  padding: 0; */
 }
 
 /* Underline From Left */
@@ -107,6 +107,38 @@ body {
     -webkit-transform-origin: top left;
             transform-origin: top left;
   }
+}
+
+
+/* swiper */
+.swiper {
+  width: 700px;
+  height: 700px;
+  padding: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+  font-size: 20px !important ;
+  background-color: rgb(214, 214, 214) !important;
+  padding: 8px 16px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 50% !important;
+  position: absolute !important;
+  top: -10 !important;
 }
 
 

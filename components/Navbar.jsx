@@ -12,7 +12,7 @@ const Navbar=()=>{
             {/* upper nav */}
             <div className="flex items-center justify-between px-[1rem] lg:px-[5rem] py- text-black/50 font-delius">
                 <motion.p 
-                className="text-[6px] lg:text-sm"
+                className="text-[8px] lg:text-sm"
                 initial={{
                     x:-500,
                     opacity:0,
@@ -41,7 +41,7 @@ const Navbar=()=>{
                         scale:1
                      }}
                      transition={{duration:1.5}}
-                    className="text-[5px] mr-6 md:mr-16 lg:text-xs font-bold transition duration-300 cursor-pointer hover:text-blue-700 animate-bounce"
+                    className="text-[8px] mr-6 md:mr-16 lg:text-xs font-bold transition duration-300 cursor-pointer hover:text-blue-700 animate-bounce"
                     onMouseEnter={() => setText('HOUSTON. TEXAS USA')}
                     onMouseLeave={() => setText('OUR LOCATION')}
                     
@@ -114,7 +114,7 @@ const Navbar=()=>{
             {/* mobile display */}
             <div className="flex lg:hidden items-center justify-between px-[1rem] shadow pb-4 ">
                 <div>
-                    <Image src='/image/logo.png' width={70} height={70} alt="company-logo"/>
+                    <Image src='/image/logo.png' width={80} height={80} alt="company-logo"/>
                 </div>
 
                 <div>
@@ -123,7 +123,7 @@ const Navbar=()=>{
                     <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
                     <div className="drawer-content">
                         {/* Page content here */}
-                        <label htmlFor="my-drawer-4" className="drawer-button bt btn-primary"><IoMdMenu className="text-black text-3xl"/></label>
+                        <label htmlFor="my-drawer-4" className="drawer-button bt btn-primary"><IoMdMenu className="text-black text-4xl"/></label>
                     </div>
                     <div className="drawer-side z-50">
                         <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
