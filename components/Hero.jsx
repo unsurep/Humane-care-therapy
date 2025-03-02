@@ -36,7 +36,7 @@ const Hero=()=>{
             <h1>Welcome to;</h1>
             <h1 className="text-6xl font-extrabold pt-1 md:pt-5 kenburns-top-left">HUMANE CARE THERAPY INC.</h1>
 
-            <p className="pt-6 text-4xl">Start your Journey to <span>{text}<Cursor cursorColor='red' /></span>{' '} {' '}Today</p>
+            <p className="pt-6 text-4xl">Start your Journey to <span className='text-red-400'>{text}<Cursor cursorColor='red' /></span>{' '} {' '}Today</p>
             
 
             <p className="w-fit flex items-center pt-6 text-2xl">Humane Care Therapy is dedicated to providing compassionate, <br />  client-centered care. Our approach blends evidence-based techniques <br /> with genuine empathy, ensuring you feel heard, supported, and <br /> empowered on your journey toward emotional well-being.</p>
