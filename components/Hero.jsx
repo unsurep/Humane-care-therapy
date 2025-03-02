@@ -37,13 +37,13 @@ const Hero=()=>{
             <h1 className='text-base'>Welcome to;</h1>
             <h1 className="text-3xl lg:text-6xl font-extrabold pt-8 md:pt-5 kenburns-top-left text-center">HUMANE CARE THERAPY INC.</h1>
 
-            <p className="pt-8 text-2xl lg:text-4xl text-center">Start your Journey to <span className='text-red-400'>{text}<Cursor cursorColor='red' /></span>{' '} {' '}Today</p>
+            <p className="pt-4 text-2xl lg:text-4xl text-center">Start your Journey to <span className='text-red-400'>{text}<Cursor cursorColor='red' /></span>{' '} {' '}Today</p>
             
 
-            <p className="w-fit flex items-center pt-8 text-base lg:text-2xl">Humane Care Therapy is dedicated to providing compassionate, <br />  client-centered care. Our approach blends evidence-based techniques <br /> with genuine empathy, ensuring you feel heard, supported, and <br /> empowered on your journey toward emotional well-being.</p>
+            <p className="w-fit flex items-center pt-4 text-base lg:text-2xl">Humane Care Therapy is dedicated to providing compassionate, <br />  client-centered care. Our approach blends evidence-based techniques <br /> with genuine empathy, ensuring you feel heard, supported, and <br /> empowered on your journey toward emotional well-being.</p>
 
-            <div className="mt-16 w-full md:w-fit">
-                <button className='bg-cyan-600/30 hover:bg-cyan-600/90 cursor-pointer w-full md:w-fit py-2 px-6 hover:transition-opacity duration-1000 ease-in-out opacity-100 flex items-center gap-2 rounded'>Book Appointment <span><MdArrowOutward /></span></button>
+            <div className="mt-20 w-fit">
+                <button className='bg-cyan-600/30 hover:bg-cyan-600/90 cursor-pointer w-fit py-2 px-6 hover:transition-opacity duration-1000 ease-in-out opacity-100 flex items-center gap-2 rounded'>Book Appointment <span><MdArrowOutward /></span></button>
             </div>
           </div>
 
