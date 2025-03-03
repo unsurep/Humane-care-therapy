@@ -87,7 +87,7 @@ const Hero2 = () => {
 
 
         {/* box design */}
-        <div className="absolute top-[16rem] left-12 hidden lg:flex">
+        <div className="absolute top-[16rem] left-8 hidden lg:flex">
             <Image src='/image/g-box.png' width={250} height={250} alt="image"/>
         </div>
 
