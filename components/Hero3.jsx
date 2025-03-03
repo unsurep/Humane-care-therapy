@@ -32,7 +32,7 @@ const Hero3 = () => {
         </div>
         <p className='text-xl pt-5 text-center'>At Humane Care Therapy Inc., our commitment to exceptional care is reflected in our specialized therapy services designed to empower patients and elevate their quality of life.</p>
 
-        <div className='flex flex-col md:flex z-10 gap-5 pt-5'>
+        <div className='grid grid-cols-1 md:flex z-10 gap-5 pt-5'>
           {/* 1 */}
             <div className=' flex flex-col'>
               <div className=''>
