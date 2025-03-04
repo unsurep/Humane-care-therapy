@@ -39,7 +39,7 @@ const Hero4 = () => {
               {/* 1 */}
               <div className=''>
                 <div className="bg-slate-200 rounded-lg hover:bg-slate-800 cursor-pointer w-fit hvr-float-shadow">
-                  <Image src='/image/gt-bgr.png' width={300} height={300} alt='Geriatric Therapy image'/>
+                  <Image src='/image/gt-bgr.png' width={300} height={300} alt='Geriatric Therapy image' className='rounded ring-cyan-700 ring'/>
                 </div>
                 <div className=" flex flex-col items-center gap-1  mt-3 w-fit">
                   <h1 className="font-bold text-cyan-600/80 text-lg">Geriatric Therapy</h1>
@@ -52,7 +52,7 @@ const Hero4 = () => {
               {/* 2 */}
               <div className=''>
                 <div className="bg-slate-200 rounded-lg hover:bg-slate-800 cursor-pointer w-fit  hvr-float-shadow">
-                  <Image src='/image/pt-bgr.png' width={300} height={300} alt='Pain Management Therapy image'/>
+                  <Image src='/image/pt-bgr.png' width={300} height={300} alt='Pain Management Therapy image' className='rounded ring-cyan-700 ring'/>
                 </div>
                 <div className=" flex flex-col items-center gap-1  mt-3 w-fit">
                   <h1 className="font-bold text-cyan-600/80 text-lg">Pain Management Therapy</h1>
@@ -65,7 +65,7 @@ const Hero4 = () => {
               {/* 3 */}
               <div className=''>
                 <div className="bg-slate-200 rounded-lg hover:bg-slate-800 cursor-pointer w-fit  hvr-float-shadow">
-                  <Image src='/image/st-bgr.png' width={300} height={300} alt='Post-Surgical Rehabilitation image'/>
+                  <Image src='/image/st-bgr.png' width={300} height={300} alt='Post-Surgical Rehabilitation image' className='rounded ring-cyan-700 ring'/>
                 </div>
                 <div className=" flex flex-col items-center gap-1  mt-3 w-fit">
                   <h1 className="font-bold text-cyan-600/80 text-lg">Post-Surgical Rehabilitation</h1>
@@ -78,7 +78,7 @@ const Hero4 = () => {
               {/* 4 */}
               <div className=''>
                 <div className="bg-slate-200 rounded-lg hover:bg-slate-800 cursor-pointer w-fit  hvr-float-shadow">
-                  <Image src='/image/ct-bgr.png' width={300} height={300} alt='Geriatric Therapy image'/>
+                  <Image src='/image/ct-bgr.png' width={300} height={300} alt='Geriatric Therapy image' className='rounded ring-cyan-700 ring'/>
                 </div>
                 <div className=" flex flex-col items-center gap-1  mt-3 w-fit">
                   <h1 className="font-bold text-lg text-cyan-600/80">Caregiver Training & Support</h1>
