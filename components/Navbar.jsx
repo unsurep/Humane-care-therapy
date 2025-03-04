@@ -98,7 +98,7 @@ const Navbar=()=>{
             {/* Navbar  for desktop*/}
             <nav className="hidden lg:flex items-center justify-between w-full px-[5rem] py-1 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-white bg-opacity-45 backdrop-blur-x border border-cyan-600">
                 <div>
-                    <Image src='/image/logo.png' width={150} height={150} alt="company logo"/>
+                    <Image src='/image/logo.png' width={120} height={120} alt="company logo"/>
                 </div>
 
                 <ul className="flex items-center gap-8 font-delius">
