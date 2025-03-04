@@ -10,7 +10,7 @@ const Hero4 = () => {
             relative 
             font-nunito 
             md:pt-12 
-            pt-[40rem]
+            pt-[57rem]
             bg-cover 
             bg-center 
             bg-no-repeat 
@@ -38,7 +38,7 @@ const Hero4 = () => {
             <div className='grid grid-cols-1 md:flex z-10 gap-5'>
               {/* 1 */}
               <div className=''>
-                <div className="bg-slate-200 rounded-lg hover:bg-slate-800 cursor-pointer w-fit hvr-float-shadow">
+                <div className="bg-slate-200 rounded-lg hover:bg-slate-800 cursor-pointer w-fit hvr-float-shadow flex flex-col items-center justify-center">
                   <Image src='/image/gt-bgr.png' width={300} height={300} alt='Geriatric Therapy image' className='rounded ring-cyan-700 ring'/>
                 </div>
                 <div className=" flex flex-col items-center gap-1  mt-3 w-fit">
@@ -51,7 +51,7 @@ const Hero4 = () => {
 
               {/* 2 */}
               <div className=''>
-                <div className="bg-slate-200 rounded-lg hover:bg-slate-800 cursor-pointer w-fit  hvr-float-shadow">
+                <div className="bg-slate-200 rounded-lg hover:bg-slate-800 cursor-pointer w-fit  hvr-float-shadow flex flex-col items-center justify-center">
                   <Image src='/image/pt-bgr.png' width={300} height={300} alt='Pain Management Therapy image' className='rounded ring-cyan-700 ring'/>
                 </div>
                 <div className=" flex flex-col items-center gap-1  mt-3 w-fit">
@@ -64,7 +64,7 @@ const Hero4 = () => {
 
               {/* 3 */}
               <div className=''>
-                <div className="bg-slate-200 rounded-lg hover:bg-slate-800 cursor-pointer w-fit  hvr-float-shadow">
+                <div className="bg-slate-200 rounded-lg hover:bg-slate-800 cursor-pointer w-fit  hvr-float-shadow flex flex-col items-center justify-center">
                   <Image src='/image/st-bgr.png' width={300} height={300} alt='Post-Surgical Rehabilitation image' className='rounded ring-cyan-700 ring'/>
                 </div>
                 <div className=" flex flex-col items-center gap-1  mt-3 w-fit">
@@ -77,7 +77,7 @@ const Hero4 = () => {
 
               {/* 4 */}
               <div className=''>
-                <div className="bg-slate-200 rounded-lg hover:bg-slate-800 cursor-pointer w-fit  hvr-float-shadow">
+                <div className="bg-slate-200 rounded-lg hover:bg-slate-800 cursor-pointer w-fit  hvr-float-shadow flex flex-col items-center justify-center">
                   <Image src='/image/ct-bgr.png' width={300} height={300} alt='Geriatric Therapy image' className='rounded ring-cyan-700 ring'/>
                 </div>
                 <div className=" flex flex-col items-center gap-1  mt-3 w-fit">
