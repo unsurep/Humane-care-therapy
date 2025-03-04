@@ -10,7 +10,7 @@ const Hero4 = () => {
             relative 
             font-nunito 
             md:pt-12 
-            pt-[57rem]
+            pt-[42rem]
             bg-cover 
             bg-center 
             bg-no-repeat 
