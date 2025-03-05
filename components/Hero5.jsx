@@ -1,12 +1,14 @@
+'use client'
+
 import React from 'react'
 import { TbBulb } from "react-icons/tb";
 import { LuBrain } from "react-icons/lu";
 import Image from 'next/image';
-import { motion } from "framer-motion";
+import { motion } from "motion/react"
 
 const Hero5 = () => {
   return (
-    <section id='section5' className='h-[220vh] pt-16 font-nunito bg-gray-100 px-[1rem] md:px-[3rem]'>
+    <section id='section5' className='h-[240vh] md:h-[200vh] pt-16 font-nunito bg-gray-100 px-[1rem] md:px-[3rem]'>
       <div className='pt-8 md:bg-cyan-200/40  rounded grid grid-cols-1 md:flex items-center gap-10 justify-between px-[1rem] md:px-[3rem]'>
         <div className='flex flex-col items-center justify-center bg-slate-200 rounded p-3 ring ring-cyan-200 gap-4'>
           <div>
@@ -35,7 +37,7 @@ const Hero5 = () => {
         <p className='text-base'>At Humane Care Therapy Inc., we stand out because we combine clinical expertise with a genuine passion for improving lives. We leverage the latest technologies, such as KINNSER Electronic Medical Records, to ensure all client information is managed accurately and efficiently. Our team of highly professional therapists are fully licensed and continually trained, adhering to strict Quality Assurance protocols to ensure compliance with all Medicare, Medicaid, and Private Insurance laws. As an OT-owned and operated company, we possess the unique knowledge and understanding necessary to ensure the satisfaction and optimal performance of our therapists. We are also dedicated to growing our team, hiring additional therapists daily to meet the evolving needs of our clients. At Humane Care Therapy Inc., you can trust that your care is in capable, compassionate hands. Together, we are committed to fostering health, hope, and healing in every home we touch.</p>
 
         <div className='grid grid-cols-1  md:flex gap-5 justify-center items-center pt-16'>
-          <div 
+          <motion.div 
           className='flex justify-center'
           initial={{opacity:0,}}
           animate={{
@@ -53,7 +55,7 @@ const Hero5 = () => {
 
 
             <Image src='/image/uncle.jpg' width={120} height={120} alt='profile image' className='rounded-full ring ring-cyan-700 '/>
-          </div>
+          </motion.div>
 
          
 
