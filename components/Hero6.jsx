@@ -9,7 +9,7 @@ const Hero6 = () => {
         <div className='grid grid-cols-1 md:flex items-center mt-[2rem] gap-3'>
           
           {/* div q&a */}
-          <div className='w-fit'>
+          <div className='w-fit flex flex-col gap-2'>
             {/* 1 */}
             <div className="collapse collapse-plus bg-base-100 border border-base-300">
               <input type="radio" name="my-accordion-3" defaultChecked />
