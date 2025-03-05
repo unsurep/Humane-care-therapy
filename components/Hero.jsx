@@ -35,7 +35,7 @@ const Hero=()=>{
             >
           <div className="w-full text-gray-100 font-extrabold flex flex-col items-center relative z-10 md:mt-6 px-[1rem] lg:px-[5rem]">
             <h1 className='text-base'>Welcome to;</h1>
-            <h1 data-aos="fade-up-left" className="text-3xl lg:text-6xl font-extrabold pt-8 md:pt-5  text-center">HUMANE CARE THERAPY INC.</h1>
+            <h1 data-aos="fade-up-left" className="text-3xl lg:text-6xl font-extrabold pt-8 md:pt-5  text-center tracking-[5px]">HUMANE CARE THERAPY INC.</h1>
 
             <p className="pt-4 text-2xl lg:text-4xl text-center">Start your Journey to <span className='text-red-400'>{text}<Cursor cursorColor='red' /></span>{' '} {' '}Today</p>
             

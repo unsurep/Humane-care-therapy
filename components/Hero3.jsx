@@ -10,7 +10,7 @@ const Hero3 = () => {
 
         <div className='flex items-center justify-center pt-16 gap-4 px-[1rem] md:px-[3rem]'>
           <Image src='/image/linebg.png' alt='logo' width={60} height={60} className=''/>
-          <p className='text-3xl text-cyan-600/80 font-bold '>Our Services</p>
+          <p className='text-3xl text-cyan-600/80 font-bold tracking-[5px]'>Our Services</p>
         </div>
         <p className='text-base md:text-xl pt-5 text-center px-[1rem] md:px-[3rem]'>At Humane Care Therapy Inc., we are dedicated to delivering specialized therapy services that empower patients and enhance their quality of life.</p>
 

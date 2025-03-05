@@ -18,7 +18,7 @@ const Hero4 = () => {
             
             <div className='flex items-center gap-4 pt-16'>
                 <Image src='/image/linebg.png' alt='logo' width={60} height={60} className=''/>
-                <p className='text-3xl text-cyan-600/80 font-bold'>Other Services offered</p>
+                <p className='text-3xl text-cyan-600/80 font-bold tracking-[5px]'>Other Services offered</p>
             </div>
 
             <p className='text-base py-3 text-center'>Our expert therapists combine skill and compassion to deliver top-tier care, ensuring every patient receives the dedicated attention they need to thrive.</p>

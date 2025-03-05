@@ -63,7 +63,7 @@ const Hero2 = () => {
         <article className='flex flex-col mx-auto  px-[1rem]'>
             <div className='flex items-center justify-center gap-4'>
                 <Image src='/image/linebg.png' alt='logo' width={60} height={60} className=''/>
-                <p className='text-3xl text-cyan-600/80 font-bold'>About Us</p>
+                <p className='text-3xl text-cyan-600/80 font-bold tracking-[5px]'>About Us</p>
             </div>
 
             <h1 className='py-2 text-2xl'>Humane Care Therapy: Your Path To Better Health Starts Here</h1>
