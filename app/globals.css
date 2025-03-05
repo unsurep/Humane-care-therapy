@@ -84,7 +84,7 @@ body {
 
 .swiper-button-prev:after, .swiper-button-next:after {
   font-size: 20px !important ;
-  background-color: rgb(214, 214, 214) !important;
+  background-color: rgb(23, 21, 21) !important;
   padding: 8px 16px !important;
   display: flex !important;
   justify-content: center !important;

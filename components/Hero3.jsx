@@ -5,35 +5,16 @@ import { MdOutlineAccessTimeFilled } from "react-icons/md";
 
 const Hero3 = () => {
   return (
-    <>
-    <section id='section3' 
-       className="
-       relative 
-       font-nunito 
-       md:pt-12
-       pt-6 
-       bg-cover 
-       bg-center 
-       bg-no-repeat 
-       h-[100vh] 
-       flex 
-       flex-col 
-       items-center 
-       w-full
-       after:content-[''] 
-       after:absolute 
-       after:inset-0 
-       bg-gray-100
-       lg:px-[3rem]
-       px-[1rem]" style={{ backgroundImage: "url('/image/bgv.svg')" }}>
+    <section id='section3' className='bg-gray-100 font-nunito '>
+    <div className='font-nunito '>
 
-        <div className='flex items-center gap-4'>
+        <div className='flex items-center justify-center pt-16 gap-4 px-[1rem] md:px-[3rem]'>
           <Image src='/image/linebg.png' alt='logo' width={60} height={60} className=''/>
-          <p className='text-3xl text-cyan-600/80 font-bold'>Our Services</p>
+          <p className='text-3xl text-cyan-600/80 font-bold '>Our Services</p>
         </div>
-        <p className='text-base md:text-xl pt-5 text-center'>At Humane Care Therapy Inc., we are dedicated to delivering specialized therapy services that empower patients and enhance their quality of life.</p>
+        <p className='text-base md:text-xl pt-5 text-center px-[1rem] md:px-[3rem]'>At Humane Care Therapy Inc., we are dedicated to delivering specialized therapy services that empower patients and enhance their quality of life.</p>
 
-        <div className='grid grid-cols-1 md:flex z-10 gap-16 md:gap-5 pt-5'>
+        <div className='grid grid-cols-1 md:flex gap-8 md:gap-5 pt-5 px-[1rem]'>
           {/* 1 */}
             <div className=' flex flex-col hvr-float-shadow'>
               <div className=''>
@@ -88,8 +69,8 @@ const Hero3 = () => {
 
 
 
+    </div>
     </section>
-    </>
   )
 }
 

@@ -7,35 +7,23 @@ const Hero4 = () => {
     <>
         <section id='section4'
             className="
-            relative 
             font-nunito 
-            md:pt-12 
-            pt-[40rem]
-            bg-cover 
-            bg-center 
-            bg-no-repeat 
-            h-[100vh] 
             flex 
             flex-col 
             items-center 
             w-full
-            after:content-[''] 
-            after:absolute 
-            after:inset-0 
-            bg-gray-100
             lg:px-[3rem]
-            px-[1rem]" > 
-
-            {/* style={{ backgroundImage: "url('/image/bgv.svg')" }} */}
-
-            <div className='flex items-center gap-4 z-50'>
+            px-[1rem]
+            bg-gray-100" > 
+            
+            <div className='flex items-center gap-4 pt-16'>
                 <Image src='/image/linebg.png' alt='logo' width={60} height={60} className=''/>
                 <p className='text-3xl text-cyan-600/80 font-bold'>Other Services offered</p>
             </div>
 
             <p className='text-base py-3 text-center'>Our expert therapists combine skill and compassion to deliver top-tier care, ensuring every patient receives the dedicated attention they need to thrive.</p>
            
-            <div className='grid grid-cols-1 md:flex z-10 gap-5'>
+            <div className='grid grid-cols-1 md:flex gap-5'>
               {/* 1 */}
               <div className=''>
                 <div className="bg-slate-200 rounded-lg hover:bg-slate-800 cursor-pointer w-fit hvr-float-shadow flex flex-col items-center justify-center">
