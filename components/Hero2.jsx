@@ -29,31 +29,31 @@ const Hero2 = () => {
                 modules={[EffectFlip, Navigation]}
                 className="mySwiper">
                 <SwiperSlide>
-                    <img src="/image/hero21.avif" alt='image' />
+                    <img src="/image/hero21.avif" alt='image'  className="rounded"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/image/hero22.jpg" alt='image' />
+                    <img src="/image/hero22.jpg" alt='image' className="rounded" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/image/hero23.jpg" alt='image' />
+                    <img src="/image/hero23.jpg" alt='image' className="rounded"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/image/hero24.avif" alt='image' />        
+                    <img src="/image/hero24.avif" alt='image' className="rounded"/>        
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/image/hero26.avif" alt='image' />
-                </SwiperSlide>
-
-                <SwiperSlide>
-                    <img src="/image/back1.jpg" alt='image' />
+                    <img src="/image/hero26.avif" alt='image' className="rounded"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img src="/image/knee1.jpg" alt='image' />
+                    <img src="/image/back1.jpg" alt='image' className="rounded"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img src="/image/foot1.jpg" alt='image' />
+                    <img src="/image/knee1.jpg" alt='image' className="rounded"/>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <img src="/image/foot1.jpg" alt='image' className="rounded"/>
                 </SwiperSlide>
 
                

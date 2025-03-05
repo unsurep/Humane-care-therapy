@@ -25,7 +25,9 @@ export default function HomePage() {
 
   return (
     <main className="min-h-screen p-8 bg-gray-100 px-[1rem] md:px-[3rem] font-nunito">
-      <h1 className="text-3xl font-bold mb-6 text-gray-600">Live Health & Therapy News 🔥</h1>
+      <h1 className="text-3xl font-bold mb-6 text-gray-600 flex items-center gap-2">Live Health & Therapy News -<span className="">
+        <Image src='/image/news.svg' width={40} height={40} alt="new logo" className=""/>
+      </span></h1>
       {error && <p className="text-red-500">{error}</p>}
       {data ? (
         data.articles && data.articles.length > 0 ? (
@@ -55,7 +57,7 @@ export default function HomePage() {
         )
       ) : 
         <div className="w-full h-screen flex items-center justify-center">
-          <Image src='/image/spinner.gif' width={100} height={100} alt='loader' className=''/>
+          <Image src='/image/spinner.gif' width={100} height={100} alt='loader' className='bg-transparent'/>
         </div>
       }
     </main>
