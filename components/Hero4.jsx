@@ -31,7 +31,7 @@ const Hero4 = () => {
                 </div>
                 <div className=" flex flex-col items-center gap-1  mt-3 w-fit">
                   <h1 className="font-bold text-cyan-600/80 text-lg">Geriatric Therapy</h1>
-                  <p className="text-sm text-neutral-500 font-semibold">
+                  <p className="text-sm font-semibold">
                   Specialized therapy services for older adults, focusing on mobility, cognitive health, and independence to enhance overall well-being and quality of life.
                   </p>
                 </div>
@@ -44,7 +44,7 @@ const Hero4 = () => {
                 </div>
                 <div className=" flex flex-col items-center gap-1  mt-3 w-fit">
                   <h1 className="font-bold text-cyan-600/80 text-lg">Pain Management Therapy</h1>
-                  <p className="text-sm text-neutral-500 font-semibold">
+                  <p className="text-sm  font-semibold">
                   Comprehensive therapy programs help manage chronic pain through physical therapy, therapeutic exercises, and pain relief techniques for best practices.
                   </p>
                 </div>
@@ -57,7 +57,7 @@ const Hero4 = () => {
                 </div>
                 <div className=" flex flex-col items-center gap-1  mt-3 w-fit">
                   <h1 className="font-bold text-cyan-600/80 text-lg">Post-Surgical Rehabilitation</h1>
-                  <p className="text-sm text-neutral-500 font-semibold">
+                  <p className="text-sm font-semibold">
                   Specialized therapy services designed to speed up recovery after surgery, helping patients regain strength, mobility, and functional independence Yes!.
                   </p>
                 </div>
@@ -70,7 +70,7 @@ const Hero4 = () => {
                 </div>
                 <div className=" flex flex-col items-center gap-1  mt-3 w-fit">
                   <h1 className="font-bold text-lg text-cyan-600/80">Caregiver Training & Support</h1>
-                  <p className="text-sm text-neutral-500 font-semibold">
+                  <p className="text-sm font-semibold">
                   Comprehensive training programs empower family members and caregivers with essential skills and knowledge to always deliver effectively. Yes!
                   </p>
                 </div>
