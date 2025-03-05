@@ -33,17 +33,17 @@ const Hero5 = () => {
       </div>
 
       <div className='pt-16'>
-        <h1 className='text-cyan-600/80 font-bold text-3xl'>Why Choose Us?</h1>
-        <p className='text-base'>At Humane Care Therapy Inc., we stand out because we combine clinical expertise with a genuine passion for improving lives. We leverage the latest technologies, such as KINNSER Electronic Medical Records, to ensure all client information is managed accurately and efficiently. Our team of highly professional therapists are fully licensed and continually trained, adhering to strict Quality Assurance protocols to ensure compliance with all Medicare, Medicaid, and Private Insurance laws. As an OT-owned and operated company, we possess the unique knowledge and understanding necessary to ensure the satisfaction and optimal performance of our therapists. We are also dedicated to growing our team, hiring additional therapists daily to meet the evolving needs of our clients. At Humane Care Therapy Inc., you can trust that your care is in capable, compassionate hands. Together, we are committed to fostering health, hope, and healing in every home we touch.</p>
+        <h1 className='text-cyan-600/80 font-bold text-3xl text-center'>Why Choose Us?</h1>
+        <p className='text-base pt-5'>At Humane Care Therapy Inc., we stand out because we combine clinical expertise with a genuine passion for improving lives. We leverage the latest technologies, such as KINNSER Electronic Medical Records, to ensure all client information is managed accurately and efficiently. Our team of highly professional therapists are fully licensed and continually trained, adhering to strict Quality Assurance protocols to ensure compliance with all Medicare, Medicaid, and Private Insurance laws. As an OT-owned and operated company, we possess the unique knowledge and understanding necessary to ensure the satisfaction and optimal performance of our therapists. We are also dedicated to growing our team, hiring additional therapists daily to meet the evolving needs of our clients. At Humane Care Therapy Inc., you can trust that your care is in capable, compassionate hands. Together, we are committed to fostering health, hope, and healing in every home we touch.</p>
 
         <div className='grid grid-cols-1  md:flex gap-5 justify-center items-center pt-16'>
           <motion.div 
           className='flex justify-center'
           initial={{opacity:0,}}
           animate={{
-            scale:[1,2,2,3,1],
+            
             opacity: [0.1, 0.2, 0.4, 0.8, 0.1, 1.0],
-            borderRadius: ['20%', '20%', '50%', '80%', '20%'],
+           
           }}
           transition={{duration: 2.5,}}>
             
