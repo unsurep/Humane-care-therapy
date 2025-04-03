@@ -35,12 +35,12 @@ const Hero5 = () => {
       <div className='pt-16'>
          <div className='flex items-center justify-center gap-4'>
             <Image src='/image/linebg.png' alt='logo' width={60} height={60} className=''/>
-          <h1 className='text-cyan-600/80 font-bold text-3xl text-center tracking-[5px]'>Why Choose Us?</h1>
+            <h1 className=' text-center text-3xl text-cyan-600/80 font-bold'>Why Choose Humane Care Therapy Inc.?</h1>
         </div>
 
         <p className='text-base pt-5'>At Humane Care Therapy Inc., we go beyond standard care by blending clinical expertise with a deep passion for    improving lives. Utilizing cutting-edge technologies like KINNSER Electronic Medical Records, we ensure precise and efficient management of client information.Our team of highly skilled, fully licensed therapists undergo continuous training and adhere to strict Quality Assurance protocols, guaranteeing full compliance with Medicare, Medicaid, and Private Insurance regulations. As an OT-owned and operated company, we bring a unique understanding of therapist needs, ensuring both professional satisfaction and exceptional client outcomes.Dedicated to meeting the evolving needs of our clients, we are actively expanding our team, hiring talented therapists daily. At Humane Care Therapy Inc., your care is in expert, compassionate hands. Together, we foster health, hope, and healing in every home we serve.</p>
 
-        <div className='grid grid-cols-1  md:flex gap-5 justify-center items-center pt-10'>
+        {/* <div className='grid grid-cols-1  md:flex gap-5 justify-center items-center pt-10'>
           <motion.div 
           className='flex justify-center'
           initial={{opacity:0,}}
@@ -67,7 +67,7 @@ const Hero5 = () => {
             <h1 className='text-base md:text-2xl'>Felix Umukoro, OTR,MS,MOT,CLIPP.</h1>
             <p className='font-extrabold text-base md:text-2xl'>Director</p>
           </div>
-        </div>
+        </div> */}
       </div>
 
       

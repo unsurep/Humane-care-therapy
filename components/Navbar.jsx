@@ -7,12 +7,13 @@ import { IoMdMenu } from "react-icons/io";
 
 const Navbar=()=>{
     const [text, setText] = useState('OUR LOCATION')
+    
     return (
         <div>
             {/* upper nav */}
-            <div className="flex items-center justify-between px-[1rem] lg:px-[5rem] py- text-black/50 font-delius">
+            <div className="flex items-center justify-between px-[1rem] lg:px-[5rem] py- text-black/50 font-delius fixed z-50 pt- bg-blue-100 w-full">
                 <motion.p 
-                className="text-[8px] lg:text-sm"
+                className="text-[12px] hidden  md:flex"
                 initial={{
                     x:-500,
                     opacity:0,
@@ -41,7 +42,7 @@ const Navbar=()=>{
                         scale:1
                      }}
                      transition={{duration:1.5}}
-                    className="text-[8px] mr-6 md:mr-16 lg:text-xs font-bold transition duration-300 cursor-pointer hover:text-blue-700 animate-bounce"
+                    className="text-[8px] hidden md:flex mr-6 md:mr-16 lg:text-xs font-bold transition duration-300 cursor-pointer hover:text-blue-700 animate-bounce"
                     onMouseEnter={() => setText('HOUSTON. TEXAS USA')}
                     onMouseLeave={() => setText('OUR LOCATION')}
                     
@@ -91,12 +92,12 @@ const Navbar=()=>{
                         style={{ height: 30, width: 30 }}
                         />
                     </motion.div>
-
                 </div>
+                <motion.div className="ml-5">Tel: 281-619-3771</motion.div>
             </div>
 
             {/* Navbar  for desktop*/}
-            <nav className="hidden lg:flex items-center justify-between w-full px-[5rem] py-1 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-white bg-opacity-45 backdrop-blur-x border border-cyan-600">
+            <nav className="hidden lg:flex items-center justify-between w-full px-[5rem] py-1 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] bg-white bg-opacity-45 backdrop-blur-x border border-cyan-600 fixed z-50 mt-[1.8rem]">
                 <div>
                     <Image src='/image/logo.png' width={120} height={120} alt="company logo"/>
                 </div>
@@ -112,7 +113,7 @@ const Navbar=()=>{
             </nav>
 
             {/* mobile display */}
-            <div className="flex lg:hidden items-center justify-between px-[1rem] shadow pb-4 ">
+            <div className="flex lg:hidden items-center md:pt-0 pt-10 justify-between px-[1rem] shadow pb-4 ">
                 <div>
                     <Image src='/image/logo.png' width={80} height={80} alt="company-logo"/>
                 </div>

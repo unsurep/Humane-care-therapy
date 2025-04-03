@@ -156,6 +156,20 @@ body {
 
 }
 
+.boxshadowcontact {
+  border-radius: 95px 0px 65px 0px;
+-moz-border-radius: 95px 0px 65px 0px;
+-webkit-border-radius: 95px 0px 65px 0px;
+border: 30px solid #000000;
+}
+
+.faqshadowbox {
+  -webkit-box-shadow: 10px 26px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 26px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 26px 5px 0px rgba(0,0,0,0.75);
+}
+
+
 
 
 

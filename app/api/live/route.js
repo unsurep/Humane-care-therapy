@@ -6,10 +6,10 @@ export async function GET(request) {
     // Call the News API with a query related to health and therapy
     const response = await axios.get("https://newsapi.org/v2/everything", {
       params: {
-        q: "health therapy",
+        q: "occupational therapy",
         language: "en",
         sortBy: "publishedAt",
-        pageSize: 5, // Limit the number of articles
+        pageSize: 4, // Limit the number of articles
         apiKey: process.env.NEWS_API_KEY,
       },
     });

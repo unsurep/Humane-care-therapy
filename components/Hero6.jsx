@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 const Hero6 = () => {
   return (
-    <section id='secion6' className=' pt-8 md:pt-16  bg-gray-100 px-[1rem] md:px-[3rem]'>
+    <section id='secion6' className=' pt-8 pb-16 md:pt-16  bg-gray-100 px-[1rem] md:px-[3rem]'>
       {/* Q&A */}
-      <h1 className=' text-center text-3xl text-cyan-600/80 font-bold'>Why Choose Humane Care Therapy Inc.?</h1>
+      {/* <h1 className=' text-center text-3xl text-cyan-600/80 font-bold'>Why Choose Humane Care Therapy Inc.?</h1> */}
         <div className='grid grid-cols-1 md:flex items-center mt-[2rem] gap-3'>
           
           {/* div q&a */}
@@ -56,7 +56,7 @@ const Hero6 = () => {
 
           {/* div b */}
           <div className='mx-auto relative'>
-            <Image src='/image/hero24.avif' width={600} height={600} alt='therapy image' className='rounded ring ring-cyan-400'/>
+            <Image src='/image/knee.jpg' width={500} height={500} alt='therapy image' className='rounded ring ring-cyan-400'/>
 
             {/* color game */}
             <div className='absolute top-5 right-0 px-4 animate-bounce cursor-pointer'>
