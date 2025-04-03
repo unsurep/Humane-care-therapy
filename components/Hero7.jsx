@@ -26,46 +26,48 @@ export default function HomePage() {
   return (
     <div>
 
-    <h1 className="text-3xl font-bold my-10 text-gray-600 flex font-nunito w-full justify-center gap-2">Health & Therapy News - <span className="">
+    <h1 className="text-2xl md:text-3xl font-bold my-10 text-gray-600 flex font-nunito w-full justify-center gap-2">News Update - <span className="">
       <Image src='/image/news.svg' width={40} height={40} alt="new logo" className=""/></span>
     </h1>
 
-    <main className="min-h-screen p-8 bg-gray-50 px-[1rem] md:px-[3rem] font-nunito grid grid-cols-4 gap-5">
-      
+    <div className='p-4 md:p-6">'>
+      <main className=" font-poppins grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+       
       {error && <p className="text-red-500">{error}</p>}
 
-      {data ? (
-        data.articles && data.articles.length > 0 ? (
-          data.articles.map((article, index) => (
-            <div key={index} className="mb-6 p-4 bg-gray-100 font-nunito grid grid-cols-1 gap-5 hover:bg-black/10 shadow rounded">
+          {data ? 
+            (data.articles && data.articles.length > 0 ? 
+              (data.articles.map((article, index) => (
+            <div key={index} className="p-4 bg-white shadow-lg rounded-lg hover:bg-black/10 transition duration-300">
               {article.urlToImage && (
                 <img
                   src={article.urlToImage}
                   alt={article.title}
-                  className="w-full h-64 object-cover rounded mb-4"
+                  className="w-full h-48 sm:h-64 object-cover rounded mb-4"
                 />
               )}
-              <h2 className="text-xl font-semibold">{article.title}</h2>
-              <p className="mt-2">{article.description}</p>
-              <button
+              <h2 className="text-base  font-semibold">{article.title}</h2>
+
+              {/* Date Added Below */}
+              {article.publishedAt && (<p className="text-xs md:text-sm text-gray-500 mb-2">Published on: {new Date(article.publishedAt).toLocaleDateString()}</p>)}
+
+              <p className="mt-4 text-sm md:text-base text-gray-700">{article.description}</p>
+              <a
                 href={article.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-2 gap-1 flex items-center px-2 py- rounded w-fit bg-cyan-600/30 hover:bg-cyan-400/90 text-gray-700 hover:text-black cursor-pointer  hover:font-nunitotransition-opacity  opacity-100"
+                className="mt-4 inline-flex items-center gap-1 px-4 py-2 rounded bg-cyan-600/30 hover:bg-cyan-400/90 text-gray-700 hover:text-black transition-opacity duration-300 text-sm md:text-base"
               >
                 Read more 
-              </button>
+              </a>
+            </div>))) : (<p className="text-center text-gray-600">No live articles found.</p>)) : 
+
+            <div className="w-full flex items-center justify-center">
+              <Image src='/image/spinner.gif' width={100} height={100} alt='loader' className='bg-white-20'/>
             </div>
-          ))
-        ) : (
-          <p className="font-nunito">No live articles found.</p>
-        )
-      ) : 
-        <div className="w-full h-scree flex items-center mx-auto align-center justify-center">
-          <Image src='/image/spinner.gif' width={100} height={100} alt='loader' className='bg-transparent'/>
+          }
+          </main>
         </div>
-      }
-    </main>
     </div>
   );
 }
